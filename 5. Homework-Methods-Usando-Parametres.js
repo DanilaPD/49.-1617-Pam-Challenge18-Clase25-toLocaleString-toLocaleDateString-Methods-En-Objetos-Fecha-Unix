@@ -13,3 +13,18 @@ const addOption = () => {
 };
 
 addOption();
+
+//*
+
+let clima = new Object({
+  temperatura: 16,
+  nubosidad: "baja",
+  precipitaciones: false,
+});
+
+const addMaxTemp = (temp) => {
+  clima.maxima = temp;
+  console.log(clima);
+};
+
+addMaxTemp(15);

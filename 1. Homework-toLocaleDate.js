@@ -11,8 +11,8 @@ let options1 = {
 
 const toLocaleConParams1 = (date) => {
   console.log(
-    "To Locale with Parametres: ",
-    date.toLocaleString("es", options1)
+    "To LocaleDateString with Parametres: ",
+    date.toLocaleDateString("es", options1)
   );
 };
 
@@ -32,8 +32,8 @@ let options2 = {
 
 const toLocaleConParams2 = (date) => {
   console.log(
-    "To Locale with Parametres: ",
-    date.toLocaleString("es", options2)
+    "To LocaleDateString with Parametres: ",
+    date.toLocaleDateString("es", options2)
   );
 };
 
@@ -53,8 +53,8 @@ let options3 = {
 
 const toLocaleConParams3 = (date) => {
   console.log(
-    "To Locale with Parametres: ",
-    date.toLocaleString("es", options3)
+    "To LocaleDateString with Parametres: ",
+    date.toLocaleDateString("es", options3)
   );
 };
 
